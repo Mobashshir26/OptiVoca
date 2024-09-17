@@ -22,7 +22,6 @@ The project relies on the following Python packages:
 - `speech_recognition` for speech-to-text conversion
 - `gtts` for text-to-speech conversion
 - `pygame` for playing audio responses
-- `threading` for managing concurrent processes
 
 ## How It Works
 
