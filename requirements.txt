@@ -1,0 +1,8 @@
+opencv-python
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+speechrecognition
+gtts
+pygame
