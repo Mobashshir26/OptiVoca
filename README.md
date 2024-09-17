@@ -2,7 +2,7 @@
 
 This project demonstrates a real-time AI assistant that integrates speech recognition, webcam feed processing, and AI-based response generation. The assistant listens to voice input, processes the prompt, and responds based on both the spoken prompt and the captured image from the webcam. It uses the Google Gemini model for inference and generates voice output for the response.
 
-## Features
+## Features-
 
 - **Real-time Speech Recognition**: Uses Google's Web Speech API for accurate speech-to-text conversion.
 - **Webcam Integration**: Captures frames from the webcam and encodes them as base64 images to pass to the AI model.
@@ -10,7 +10,7 @@ This project demonstrates a real-time AI assistant that integrates speech recogn
 - **Text-to-Speech Output**: The assistant speaks out the AI-generated responses using Google Text-to-Speech (gTTS).
 - **Multithreading**: Separate threads for audio listening and webcam stream to ensure real-time processing.
 
-## Dependencies
+## Dependencies-
 
 The project relies on the following Python packages:
 
@@ -23,7 +23,7 @@ The project relies on the following Python packages:
 - `gtts` for text-to-speech conversion
 - `pygame` for playing audio responses
 
-## How It Works
+## How It Works-
 
 - **Webcam Stream**: The application starts the webcam feed and captures frames in real-time using OpenCV. Each frame is encoded in base64 format to be passed to the AI model.
 
